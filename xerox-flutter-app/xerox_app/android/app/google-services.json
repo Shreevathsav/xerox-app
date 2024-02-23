@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374972235161",
+    "project_id": "xerox-app-e3b49",
+    "storage_bucket": "xerox-app-e3b49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374972235161:android:72f8c0a11cba957626a708",
+        "android_client_info": {
+          "package_name": "com.example.xerox_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbFyy3z6wQZKW588tQ1lteqvTMPZXgQxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
