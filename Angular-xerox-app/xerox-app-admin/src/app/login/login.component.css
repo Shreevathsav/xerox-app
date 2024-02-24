@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),  /* Adjust the opacity value (0.5 for 50% opacity) */
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('../../assets/brandi-redd-aJTiW00qqtI-unsplash.jpg');  /* Replace 'your-background-image-url.jpg' with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: Keeps the background image fixed while scrolling */
+  background-position: center;
+  height: 100hv;
+  width: 100%;
+  justify-content: center;
+}
+.login-form{
+  position: relative;
+  min-width: 100vh;
+  z-index: 0;
+  padding: 40px;
+  justify-content: center;
+  display: grid;
+
+  grid-template-rows: 1fr;
+  grid-row-gap: 20px;
+  align-items: center;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.login-form h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: black;
+}
+
+
+.login-form h2{
+  line-height: 40px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+}
+
+.login-form .main{
+  position: relative;
+  display: flex;
+  margin: 30px, 0;
+}
+
+.content{
+  flex-basis: 50%;
+  padding: 3rem 3rem;
+  background-color: rgb(230, 227, 227);
+  box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.form-img{
+  flex-basis: 50%;
+  background: white;
+  background-size: cover;
+  padding: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+  display: grid;
+}
+
+.form-img img{
+  max-width: 100%;
+}
+
+.btn:hover,
+button:hover{
+  transition: 0.5s ease;
+  color: #50727B;
+}
+
+.btn,button,input{
+  border-radius: 35px;
+}
+
+.login-form form{
+  margin: 30px 0;
+}
+
+.login-form h1{
+  color: white;
+}
+
+.login-form input{
+  outline: none;
+  margin-bottom: 15px;
+  font-stretch: 16px;
+  color: rgb(56, 55, 55);
+  text-align: left;
+  padding: 14px 20px;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  background: #f7fafc;
+  transition: 0.3s ease;
+}
+
+.login-form input:focus{
+  background: white;
+  border: 1px solid #35374B;
+}
+
+.login-form button{
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+  background: #35374B;
+  border: none;
+  padding: 14px 15px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 736px){
+  .login-form{
+    grid-template-columns: 1fr 1fr;
+  }
+  .login-form .main{
+      flex-direction: column !important;
+  }
+  .login-form form{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .form-img{
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .content{
+    order: 0;
+    border-radius: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+}
