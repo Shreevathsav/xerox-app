@@ -44,7 +44,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyApGYalXkL_ECgQWtd_9uFVbfBUEL45_ek',
+    apiKey: '',
     appId: '1:374972235161:web:1e5be44aaabdc2e026a708',
     messagingSenderId: '374972235161',
     projectId: 'xerox-app-e3b49',
@@ -53,7 +53,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBbFyy3z6wQZKW588tQ1lteqvTMPZXgQxA',
+    apiKey: '',
     appId: '1:374972235161:android:72f8c0a11cba957626a708',
     messagingSenderId: '374972235161',
     projectId: 'xerox-app-e3b49',
@@ -61,7 +61,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDafoQ04IBS0C1hoDANhdSk9bRw91y6zpo',
+    apiKey: '',
     appId: '1:374972235161:ios:6a423cdfb2b6a33926a708',
     messagingSenderId: '374972235161',
     projectId: 'xerox-app-e3b49',
@@ -70,7 +70,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDafoQ04IBS0C1hoDANhdSk9bRw91y6zpo',
+    apiKey: '',
     appId: '1:374972235161:ios:de55c576c17f39c226a708',
     messagingSenderId: '374972235161',
     projectId: 'xerox-app-e3b49',
